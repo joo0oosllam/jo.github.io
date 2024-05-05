@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Alien Abduction Order Form</title>
+	<link href="css/forms.css" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<section>
+			<h1>Alien Abduction Order Form</h1>
+			<p>Fill out the form below to place an order for an alien abduction by one of our fine UFOs.</p>
+		<fieldset>
+			<legend>Your contact information</legend>
+			<label for="name">Your Name</label><br>
+			<input type="text" id="name"><br>
+			<label for="number">Phone number</label>
+			<br>
+			<input type="tel" id="number">
+			<br>
+			<label for="email">Email</label>
+			<br>
+			<input type="email" id="email">
+		</fieldset>
+		<fieldset>
+			<legend>About your abduction </legend>
+			<p>Requested  date</p>
+			<label for="date">Date</label>
+			<input type="date" id="date">
+			<br>
+			<br>
+			<br>
+			<br>
+			<label id="count">How many people would you like abducted?</label>
+			<br>
+			<input type="number" for="count" min="1" max="10">
+			<p>What type of UFO do you prefer?</p>
+			<section>
+					<label for="classic"><input type="radio" value="classic" id="classic" name="choice">Classic oval UFO</label><br>
+					<label for="star wars"><input type="radio" value="classic" id="star wars" name="choice">Star Wars-style Imperial cruiser</label><br>
+					<label for="battlestar"><input type="radio" value="classic" id="battlestar" name="choice">Battlestar Galactica-style Viper</label><br>
+					<label for="borg"><input type="radio" value="classic" id="borg" name="choice">Borg-style cube</label><br>
+				</section>
+			<label for="abtype">What type of abduction experience do you want?</label>
+				<select id="abtype" name="abtype">
+					<option value="tour">Tour of the solar system</option>
+					<option value="dinner">Alien dinner and discussion</option>
+					<option value="dance">Alien dance lessons</option>
+					<option vlaue="default" selected>---select one option---</option>
+					<option value="whale">Whale watching</option>
+				</select>
+			<p>Special requests:</p>
+			<textarea placeholder="tell me everything"></textarea><br>
+			<label for="subscribe"><input type="checkbox" name="subscribe" value="subscribe" id="subscribe" checked>Add me to your email list</label>				
+			<br><button type="submit"> submit </button>
+		</section>
+		
+	</fieldset>
+		<aside>
+			<h3>Our Location</h3>
+			<address>
+				Frontend Masters &middot;
+				60 South 6th Street &middot;
+				Suite 3625 &middot;
+				Minneapolis, MN 55402
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7547.717939482525!2d31.3376390298985!3d30.08382599238181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583f8e26760ed3%3A0xfd6905438ad6c1d8!2sEnergya%20Cables%20ElSewedy%20Helal!5e0!3m2!1sar!2seg!4v1714749459162!5m2!1sar!2seg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</address>
+		</aside>
+	</div>
+</body>
+</html>
+
+
+
+
+
